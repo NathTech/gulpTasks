@@ -1,0 +1,23 @@
+{
+  "name": "gulp-modules",
+  "version": "1.0.0",
+  "description": "modular gulp tasks",
+  "main": "gulpfile.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathTech/gulpTasks.git"
+  },
+  "keywords": [
+    "gulp",
+    "modules"
+  ],
+  "author": "NathTech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NathTech/gulpTasks/issues"
+  },
+  "homepage": "https://github.com/NathTech/gulpTasks#readme"
+}
