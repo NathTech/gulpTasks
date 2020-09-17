@@ -1,4 +1,4 @@
-# gulpTasks
+# gulpTasks (for gulp version >4.0)
 
 This is mostly for personal use, but feel free to use it if it helps you.
 
