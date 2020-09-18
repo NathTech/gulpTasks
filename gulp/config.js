@@ -16,8 +16,33 @@ export default {
     sass: {
         src: dir.src + 'assets/scss/**/*.scss',
         outputFile: 'styles.css',
+        build: dir.build + 'assets/css',
+    },
+    css: {
+        src: dir.src + 'assets/css/**/*',
         build: dir.build + 'assets/css'
     },
+    js: {
+        src: dir.src + 'assets/js/**/*',
+        build: dir.build + 'assets/js',
+    },
+    copy: {
+        src: [
+            {
+                src: dir.src + '**/*',
+                build: dir.build,
+            },
+        ]
+    },
+    watch: [
+        {
+            taskName: 'js',
+            reload: true,
+        },
+        {
+            taskName: 'images',
+        }
+    ],
     sync: {
         files: dir.build + '**/*',
         open: false,
@@ -26,6 +51,6 @@ export default {
         server: dir.build,
         ui: {
             port: 8001
-        }
-    }
+        },
+    },
 }
